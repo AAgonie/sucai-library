@@ -1,0 +1,53 @@
+# Local runtime configuration and secrets
+config.local.json
+.env
+.env.*
+!.env.example
+
+# Local database, logs, and generated runtime state
+data/*.sqlite
+data/*.sqlite3
+data/*.db
+data/backups/
+logs/
+
+# Release archives and historic packages may contain local configuration
+release/
+*.zip
+
+# Private project records and phased implementation notes
+/Summary.md
+/总结.md
+/交接总览-V2-V8.md
+/OCR崩溃诊断与V2.0.5修复部署说明.md
+/docs/deployment.md
+/docs/nas-deploy.md
+/docs/nas-local-temporary-copy.md
+/docs/stage*-test.md
+/docs/v2.0-functional-audit.md
+/docs/v2.0-release.md
+/docs/v2.0-tasks/
+
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+
+# Node build and dependency outputs
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# TLS certificates and private keys
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+
+# Editor and operating system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

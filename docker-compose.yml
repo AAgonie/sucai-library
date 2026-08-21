@@ -1,0 +1,10 @@
+services:
+  short-drama-ad-library:
+    build: .
+    container_name: short-drama-ad-library
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./config.local.json:/app/config.local.json
+    restart: unless-stopped

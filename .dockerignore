@@ -1,0 +1,17 @@
+frontend/node_modules
+frontend/.vite
+frontend/tsconfig.tsbuildinfo
+release
+logs
+data
+*.zip
+__pycache__
+*.pyc
+config.local.json
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt

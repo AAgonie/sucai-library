@@ -1,0 +1,17 @@
+﻿{
+  "nas": {
+    "type": "smb",
+    "host": "",
+    "share": "",
+    "base_path": "\\\\FILE_SERVER\\shared\\image-library",
+    "username": "",
+    "password": "",
+    "recursive": false
+  },
+  "app": {
+    "title": "短剧广告大图素材库展示网站",
+    "default_batch_size": 50,
+    "allowed_extensions": [".jpg", ".jpeg", ".png", ".webp"],
+    "derivative_output_path": "\\\\FILE_SERVER\\shared\\image-library\\derived"
+  }
+}
